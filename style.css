@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+header {
+  background: #EFE9E5;
+  width: 100vw;
+  overflow: hidden; 
+  outline: none;
+}
+
+.header {
+   display: flex;
+   margin-left: 80px;
+   margin-top: 20px; 
+}
+
+.header > a {
+  text-decoration: none;
+  font: 400 18px 'Roboto', 'sans-serif';
+  color: #252220;
+  padding: 10px;
+}
+
+.header > a:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.header-menu {
+  width: 100%;
+  background:#EC7000;
+
+  display: flex;
+  align-items: center;
+}
+
+
+.header-menu img {
+  width: 100px;
+  height: 100px;
+
+  margin-left: 80px;
+}
+
+.header-menu a{
+  padding: 10px;
+  margin-left: 20px;
+
+  text-decoration: none;
+  font: 400 19px 'Roboto', 'sans-serif';
+  font-weight: 700;
+  color: #fff;
+}
+
+.header-menu a:hover {
+  border-bottom: 2px solid #FFF;
+}
+
+.header-menu-busca {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 100%;
+  padding: 20px;
+}
+
+.header-menu-busca img {
+  width: 30px;
+  margin-right: 20px;
+}
+
+.header-menu-busca a {
+  margin-left:5px ;
+}
+
+.opcao-acesso {
+  font: 400 19px 'Roboto', 'sans-serif';
+  color: #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  height: 120px;
+
+  margin-right: 80px;
+}
+
+.opcao-acesso p {
+  text-align: center;
+}
+
+.opcao-acesso-campo {
+  display: flex;
+  padding: 20px;
+}
+
+.opcao-acesso-campo input {
+  padding: 16px;
+  margin-right: 4px;
+  border: none;
+  border-radius: 4px;
+}
+.opcao-acesso-campo button {
+  height: 50px;
+  width: 50px;
+
+  border-radius: 4px;
+  border: none;
+}
+
+.opcao-acesso-campo button img {
+  margin: 0;
+  width: 30px;
+  height: 30px;
+}
+
+/*=== FORM ===*/
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  background: #EFE9E5;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  outline: none;
+}
+
+.form {
+  width:1110px;
+  height: 700px;
+  background: #FFF;
+
+  margin-top: 80px;
+
+  margin-bottom: 300px;
+}
+
+.header-form {
+  display: flex;
+  justify-content: center;
+
+  font: 400 18px 'Roboto', 'sans-serif';
+  color: #776f6e;
+}
+
+.text {
+  margin-left: 20px;
+  font: 400 12px 'Roboto';
+  padding: 20px;
+
+  color: #535150;
+}
+
+.text input {
+  background-color: #f0f0f5;
+
+  border-radius: 4px;
+  border: 0;
+
+  padding: 16px 24px;
+  font-size: 16px;
+}
+
+button {
+  padding: 20px;
+  margin-left: 45px;
+
+  width: 100px;
+
+  cursor: pointer;
+  border-radius: 4px;
+
+  border: none;
+  color: #EC7000;
+  transition: 0.2s;
+}
+
+button:hover{
+  background-color: #f5d1ba;
+}
+

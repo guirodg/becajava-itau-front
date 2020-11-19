@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Banco Itaú | Tudo pra você </title>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <a href="#">para você</a>
+      <a href="#">para empresas</a>
+    </div>
+
+    <div class="header-menu">
+      <img src="/assets/icon.png" alt="icon">
+      <a href="/index.html">Conta</a>
+      <a href="/deposito.html">Deposito</a>
+      <a href="/saque.html">Saque</a>
+      <a href="/transferencia.html">Trasferencia</a>
+
+      <div class="header-menu-busca">
+        <img src="/assets/lupa.svg" alt="lupa">
+        <a href="">busca</a>
+      </div>
+
+      <div class="opcao-acesso">
+        <p>opções de acesso</p>
+        <div class="opcao-acesso-campo">
+          <input type="#" placeholder="agência | conta">
+          <button><img src="/assets/cadeado.svg" alt="Cad"></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="content">
+    <div class="form">
+      <div class="header-form">
+        <h1>Transferencia</h1>
+      </div>
+
+      <div class="text">
+        <h1>Origem</h1>
+        <input type="text" id="hashOrigem">
+
+        <h1>Destino</h1>
+        <input type="text" id="hashDestino">
+
+        <h1>Valor</h1>
+        <input type="text" id="valor">
+
+      </div>
+      <button onclick="transferencia()">Salvar</button>
+
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
